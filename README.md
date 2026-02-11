@@ -1,6 +1,6 @@
 # c/cpp-creator
 
-This shell script for Linux allows you to create pre-configured projects for the C++ language and the CMake project compiler.
+This shell script for Linux allows you to create pre-configured projects for the C/C++ language and the CMake project compiler.
 
 ## reason
 
@@ -93,3 +93,4 @@ alcpp create base your_project (name)
 alcpp uninstall
 
 ```
+
