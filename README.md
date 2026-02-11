@@ -4,7 +4,7 @@ This shell script for Linux allows you to create pre-configured projects for the
 
 ## reason
 
-Created by me because I was tired of having to create folders and files to configure a C++ project. Yes, I know there are IDEs that solve this problem, but I wanted to do it anyway, haha.
+Created by me because I was tired of having to create folders and files to configure a C/C++ project. Yes, I know there are IDEs that solve this problem, but I wanted to do it anyway, haha.
 
 ## Installation Guide
 
@@ -17,8 +17,8 @@ or
 
 1- HTTPS:
 ```bash
-git clone https://github.com/josealbertoraios13/cpp-creator.git
-cd cpp-creator
+git clone https://github.com/josealbertoraios13/c-cpp_creator.git
+cd c-cpp_creator
 ```
 
 2- Make the installation script executable:
@@ -31,18 +31,18 @@ chmod x+ install.sh
 ```
 4- Confirm installation:
 ```bash
-alcpp --version
+alcc --version
 ```
 
 ## Examples
 
 1- Get all available commands with:
 ```bash
-alcpp --help
+alcc --help
 ```
 2- Base project example:
 ```bash
-alcpp create base your_project (name)
+alcc create base your_project (name)
 ```
 3- Project base file tree
 ```bash
@@ -90,7 +90,8 @@ alcpp create base your_project (name)
 
 1- To uninstall use:
 ```bash
-alcpp uninstall
+alcc uninstall
 
 ```
+
 
