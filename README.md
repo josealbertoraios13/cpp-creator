@@ -1,4 +1,4 @@
-# cpp-creator
+# c/cpp-creator
 
 This shell script for Linux allows you to create pre-configured projects for the C++ language and the CMake project compiler.
 
@@ -91,4 +91,5 @@ alcpp create base your_project (name)
 1- To uninstall use:
 ```bash
 alcpp uninstall
+
 ```
